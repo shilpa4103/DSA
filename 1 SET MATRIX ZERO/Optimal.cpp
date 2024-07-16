@@ -62,3 +62,6 @@ int main(){
     }
     return 0;
 }
+
+//Time complexity: O(2*(N*M))
+//Space complexity:O(1)  
