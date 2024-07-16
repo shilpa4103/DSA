@@ -67,3 +67,6 @@ int main(){
 
     return 0;
 }
+
+//Time complexity = O((N*M)*(N + M)) + O(N*M)
+//space complexity = O(1)
