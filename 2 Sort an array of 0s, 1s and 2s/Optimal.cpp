@@ -8,7 +8,7 @@ vector<int>sortArray(vector<int>&arr,int n){
     //high+1 to n-1 all 2's
 
     //Dutch flag algorithm
-    //Three pointers low,mid,high
+    //3 pointers low,mid,high
     int low=0;
     int mid=0;
     int high=n-1;
