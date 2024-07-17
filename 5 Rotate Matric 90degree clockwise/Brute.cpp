@@ -23,3 +23,6 @@ int main(){
     }
     return 0;
 }
+
+//Time complexity : O(n*m)
+//space complexity: O(n*m)
