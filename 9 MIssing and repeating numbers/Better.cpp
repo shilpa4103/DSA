@@ -6,6 +6,8 @@ vector<int>findMissRepeat(vector<int> arr,int n){
     for(int i=0;i<n;i++){
         mpp[arr[i]]++;
     }
+
+    
     int missing=-1,repeating=-1;
     for(int i=1;i<=n;i++){
         if(mpp[i]==2){
