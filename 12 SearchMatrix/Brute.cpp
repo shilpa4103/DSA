@@ -19,3 +19,8 @@ int main(){
     checkNumber(matrix, 21) == true ? cout << "True\n" : cout << "False\n";
     return 0;
 }
+
+// Time Complexity: O(N X M), where N = given row number, M = given column number.
+// Reason: In order to traverse the matrix, we are using nested loops running for n and m times respectively.
+
+// Space Complexity: O(1) as we are not using any extra space.

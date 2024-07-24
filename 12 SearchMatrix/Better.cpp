@@ -35,3 +35,8 @@ int main(){
     checkNumber(matrix, 5) == true ? cout << "True\n" : cout << "False\n";
     return 0;
 }
+
+// Time Complexity: O(N + logM), where N = given row number, M = given column number.
+// Reason: We are traversing all rows and it takes O(N) time complexity. But for all rows, we are not applying binary search rather we are only applying it once for a particular row. That is why the time complexity is O(N + logM) instead of O(N*logM).
+
+// Space Complexity: O(1) as we are not using any extra space.
