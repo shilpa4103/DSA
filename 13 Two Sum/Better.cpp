@@ -2,14 +2,14 @@
 using namespace std;
 
 vector<int> twoSum(vector<int>&arr,int n,int target){
-    vector<int>ans;
+    unordered_map<int,int>mpp;
     for(int i=0;i<n;i++){
-        for(int j=i+1;j<n;j++){
-            if(arr[i]+arr[j]==target){
-                ans.push_back(i);
-                ans.push_back(j);
-                return ans;
-            }
+        int extra=target-arr[i];
+        if(mpp.find(extra)==mpp.end()){
+            mpp[arr[i]]=i;
+        }
+        else{
+            return {mpp[extra],i};
         }
     }
     return {-1,-1};
@@ -24,5 +24,5 @@ int main(){
     return 0;
 }
 
-//Time Complexity: O(N^2)
-//Space Complexity:O(1)
+//Time Complexity: O(N)
+//Space Complexity:O(N)
