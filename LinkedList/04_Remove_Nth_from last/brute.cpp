@@ -61,3 +61,6 @@ int main(){
 
     return 0;
 }
+
+// Time Complexity: O(L)+O(L-N)
+// Space Complexity:  O(1)
