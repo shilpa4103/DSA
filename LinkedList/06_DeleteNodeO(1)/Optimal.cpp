@@ -4,3 +4,6 @@
         node->next=node->next->next;
         delete temp;
     }
+
+    //Time complexity:O(1)
+    //space complexity:O(1)
