@@ -70,3 +70,6 @@ int main(){
     printLinkedList(head);
     return 0;
 }
+
+// Time Complexity: O(max(m,n))
+// Space Complexity: O(max(m,n))
