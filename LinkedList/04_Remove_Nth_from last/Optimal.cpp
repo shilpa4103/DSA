@@ -41,7 +41,7 @@ Node* removeNth(Node* head,int n){
     Node* delNode = slowp->next;
     slowp->next = slowp->next->next;
     delete delNode;
-    return head;
+    return head;c
 
 }
 
