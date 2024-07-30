@@ -62,7 +62,6 @@ int main() {
         cout << "No loop detected in the linked list." << endl;
     }
 
-    // Clean up memory (free the allocated nodes)
     delete head;
     delete second;
     delete third;
