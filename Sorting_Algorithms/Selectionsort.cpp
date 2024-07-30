@@ -20,7 +20,6 @@ vector<int>selectionSort(vector<int>&arr){
 int main(){
     vector<int>arr={62,32,31,8,-1};
     int n=arr.size();
-    sort(arr,arr+n);
     vector<int>ans=selectionSort(arr);
     for(int i=0;i<n;i++){
         cout<<ans[i]<<" ";
