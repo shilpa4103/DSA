@@ -22,7 +22,6 @@ int main()
         pq.push(arr[i]);
     }
 
-    pq.revrese();
     // printing priority queue
     cout << "Priority Queue: ";
     while (!pq.empty()) {
