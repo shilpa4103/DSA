@@ -12,7 +12,6 @@ int func(int mid,int n,int m){
     if(ans==m)
     return 1;
     return 0;
-
 }
 int NthRoot(int n,int m){
     int low=1;
